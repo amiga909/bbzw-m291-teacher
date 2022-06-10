@@ -53,6 +53,54 @@ body {
   }
 }
 
+#goodie {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 60px;
+  left: 550px;
+  background-image: url("https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png");
+  background-size: cover;
+}
+
+.goodie-animation {
+  animation: goodie1 3.33s infinite;
+}
+
+@keyframes goodie1 {
+  0% {
+    left: 550px;
+  }
+
+  100% {
+    left: -50px;
+  }
+}
+
+@keyframes goodie2 {
+  0% {
+    left: 550px;
+    top: 100px;
+  }
+
+  100% {
+    left: -50px;
+    top: 20px;
+  }
+}
+
+@keyframes goodie3 {
+  0% {
+    left: 550px;
+    top: 100px;
+  }
+
+  100% {
+    left: -50px;
+    top: 0px;
+  }
+}
+
 .jump-animation {
   animation: jump 0.5s;
 }
